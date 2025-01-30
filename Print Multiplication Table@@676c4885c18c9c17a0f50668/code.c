@@ -3,7 +3,7 @@ int main() {
     int a;
     scanf("%d",&a);
     int i=1;
-    while (i<=a) {
+    while (i<=10) {
         printf("%d x %d = %d\n",a,i,a*i);
         i++;
     }
