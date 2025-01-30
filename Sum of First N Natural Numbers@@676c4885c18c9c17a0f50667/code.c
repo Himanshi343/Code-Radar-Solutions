@@ -8,6 +8,6 @@ int main() {
         sum += i;
         i++;
     }
-    printf("%d",sum);ṇ
+    printf("%d",sum);
     return 0;
 }
