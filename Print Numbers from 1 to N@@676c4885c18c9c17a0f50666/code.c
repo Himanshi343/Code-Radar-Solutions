@@ -2,9 +2,9 @@
 int main() {
     int a;
     printf("%d",&a);
-    int i=0;
+    int i=1;
     while (i<=a) {
-        printf("%d ",a);
+        printf("%d ",i);
         i++;
     }
     return 0;
