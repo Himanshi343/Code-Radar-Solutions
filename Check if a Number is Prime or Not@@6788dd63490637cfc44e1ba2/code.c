@@ -14,6 +14,7 @@ int main() {
     while (z<a){
         if (z%a!=0){
             printf("Not Prime");
+            break;
         }
         z++;
     }
