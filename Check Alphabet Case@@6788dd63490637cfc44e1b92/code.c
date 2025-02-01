@@ -9,14 +9,10 @@ int main() {
         } else if (p==a) {
             printf("Lowercase");
             break;
+        } else {
+            printf("Not an alphabet");
+            break;
         }
         }
-    // for (int p=97; p<=122; p++){
-    //     if (p==a){
-    //         printf("Lowercase");
-    //         break;
-    //     }
-    // }
-    // if ()
     return 0;
 }
