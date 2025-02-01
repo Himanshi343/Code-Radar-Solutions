@@ -7,7 +7,7 @@ int main() {
         if (p%a==0){
             printf("Prime");
             break
-            }
+        }
         p++;
     }
     int z=2;
