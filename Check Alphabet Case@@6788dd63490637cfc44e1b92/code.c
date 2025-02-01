@@ -2,17 +2,21 @@
 int main() {
     char a;
     scanf("%c",&a);
-    for (int i=65; i<=90; i++){
+    for (int i=65, int p=97; i<=90 && p<=122; i++, p++){
         if (i==a){
             printf("Uppercase");
             break;
-        }
-        }
-    for (int p=97; p<=122; p++){
-        if (p==a){
+        } else if (p==a) {
             printf("Lowercase");
             break;
         }
-    }
+        }
+    // for (int p=97; p<=122; p++){
+    //     if (p==a){
+    //         printf("Lowercase");
+    //         break;
+    //     }
+    // }
+    // if ()
     return 0;
 }
