@@ -2,10 +2,14 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if (a=='a' || a=='e' || a=='i' || a=='o' || a=='u') {
+    if ((32<= a && a<=47) || (58<=a && a<=64) || (91<=a && a<=96) || (123<=a && a<=126)){
+        printf("Special Character");
+    } else if (a==97 || a==101 || a==105 || a==111 || a==117){
         printf("Vowel");
-    } else {
+    } else if (a<=97 && a<=122){
         printf("Consonant");
+    } else {
+        printf("Digit");
     }
     return 0;
 }
