@@ -4,14 +4,14 @@ int main() {
     scanf("%d",&a);
     int p=2;
     while(p<a){
-        if (a%p==0){
+        if (p%a==0){
             printf("Prime");
             break;
         p++;
     }
     int z=2;
     while (z<a){
-        if (a%z!=0){
+        if (z%a!=0){
             printf("Not Prime");
         }
         z++;
