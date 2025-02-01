@@ -4,7 +4,7 @@ int main() {
     scanf("%c",&a);
     for (int i=65; i<=90; i++){
         if (i==a){
-            printf("UPPERCASE");
+            printf("Uppercase");
             break;
         }
         }
