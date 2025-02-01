@@ -8,5 +8,11 @@ int main() {
             break;
         }
         }
+    for (int p=97; p<=122; p++){
+        if (p==a){
+            printf("Lowercase");
+            break;
+        }
+    }
     return 0;
 }
