@@ -2,6 +2,9 @@
 int main() {
     int a;
     scanf("%d",&a);
+    if (a==2){
+        printf("Prime");
+    }
     int p=2;
     while(p<a){
         if (p%a==0){
@@ -9,7 +12,7 @@ int main() {
             break;
         } else {
             printf("Not Prime");
-            continue;
+            break;
         }
         p++;
     }
