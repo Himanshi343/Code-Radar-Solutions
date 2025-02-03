@@ -7,10 +7,13 @@ int main() {
     }
     int p=2;
     while(p<a){
-        if (a%2==0){
+        if (a%2!=0){
+            if (a%p==0){
+                printf("Not Prime");
+                break;
+        } else (
             printf("Not Prime");
-            break;
-        }
+        )
         p++;
     }
     // int z=2;
