@@ -6,7 +6,7 @@ int main() {
     while(p<a){
         if (p%a==0){
             printf("Prime");
-            break
+            break;
         }
         p++;
     }
