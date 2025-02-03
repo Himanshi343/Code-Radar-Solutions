@@ -11,9 +11,9 @@ int main() {
             if (a%p==0){
                 printf("Not Prime");
                 break;
-        } else (
+        } else {
             printf("Not Prime");
-        )
+        }
         p++;
     }
     // int z=2;
