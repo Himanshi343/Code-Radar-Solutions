@@ -7,8 +7,8 @@ int main() {
     }
     int p=2;
     while(p<a){
-        if (a%2!=0){
-            printf("Prime");
+        if (a%2==0){
+            printf("Not Prime");
             break;
         }
         p++;
