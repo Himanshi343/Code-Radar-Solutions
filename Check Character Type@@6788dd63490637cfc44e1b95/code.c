@@ -23,7 +23,7 @@ int main () {
     } else if (a=='!' || a=='@' || a=='#' || a=='$' || a=='%' || a=='^' || a=='&' || a=='*') {
         printf("Special Character");
     } else if (97<=a && a<=122) {
-        printf("Comsonant");
+        printf("Consonant");
     } else {
         printf("Digit");
     }
