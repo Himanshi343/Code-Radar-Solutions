@@ -20,7 +20,7 @@ int main () {
     scanf("%c",&a);
     if (a=='a' || a=='e' || a=='i' || a=='O' || a=='u') {
         printf("Vowel");
-    } else if (a>=0 && a<=9) {
+    } else if (a>='0' && a<='9') {
         printf("Digit");
     } else if (a=='!' || a=='@' || a=='#' || a=='$' || a=='%' || a=='^' || a=='&' || a=='*') {
         printf("Special Character");
