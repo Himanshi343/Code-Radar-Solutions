@@ -1,4 +1,4 @@
-#include <stdio.h>
+/* #include <stdio.h>
 int main() {
     char a;
     scanf("%c",&a);
@@ -10,6 +10,22 @@ int main() {
         printf("Consonant");
     } else {
         printf("Digit");
+    }
+    return 0;
+}*/
+
+#include <stdio.h>
+int main () {
+    char a;
+    scanf("%c",&a);
+    if (a=='a' || a=='e' || a=='i' || a=='O' || a=='u') {
+        printf("Vowel");
+    if (0<=a && a<=9) {
+        printf("Digit");
+    } else if (a=='!' || a=='@' || a=='#' || a=='$' || a=='%' || a=='^' || a=='&' || a=='*') {
+        printf("Special Character");
+    } else {
+        printf("Consonant");
     }
     return 0;
 }
