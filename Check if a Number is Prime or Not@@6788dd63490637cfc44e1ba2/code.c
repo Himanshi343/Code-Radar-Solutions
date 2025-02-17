@@ -8,9 +8,15 @@ int main() {
     } else {
         for (int i=2; i<a; i++){
             if (a%i==0){
-                printf("Not Prime");
+                isprime==0;
             }
         }
+    }
+
+    if (isprime==0){
+        printf("Not Prime");
+    } else {
+        printf("Prime");
     }
     return 0;
 }
