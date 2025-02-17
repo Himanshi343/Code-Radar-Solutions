@@ -9,7 +9,6 @@ int main() {
         for (int i=2; i<a; i++){
             if (a%i==0){
                 isprime==0;
-                break;
             }
         }
     }
