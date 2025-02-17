@@ -5,7 +5,6 @@ int main() {
     int isprime;
     if (a==2){
         printf("Prime");
-        break;
     } else {
         for (int i=2; i<a; i++){
             if (a%i==0){
