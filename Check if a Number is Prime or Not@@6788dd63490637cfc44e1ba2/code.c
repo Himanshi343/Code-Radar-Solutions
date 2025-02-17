@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    int isprime;
+    int isprime=1;
     if (a==2){
         printf("Prime");
     } else {
