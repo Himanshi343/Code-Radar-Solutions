@@ -6,7 +6,7 @@ int main(){
     for (int i=1; i<=a; i++){
         char n = 'A';
         for (int j=1; j<=i; j++){
-            printf("%c ",n);
+            printf("%c",n);
             n++;
         }
         printf("\n");
