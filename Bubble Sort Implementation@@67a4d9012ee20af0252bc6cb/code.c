@@ -1,5 +1,5 @@
 #include<stdio.h>
-int bubblesort(int arr[], int n){
+int bubbleSort(int arr[], int n){
     int i=0;
     while(i<n-1){
         if (arr[i]>arr[i+1]){
