@@ -1,4 +1,4 @@
-int bubblesort(int arr[], n){
+int bubblesort(int arr[], int n){
     int i=0;
     while(i<n-1){
         if (arr[i]>arr[i+1]){
@@ -12,7 +12,7 @@ int bubblesort(int arr[], n){
     }
 }
 
-int printArray(int arr[], n){
+int printArray(int arr[], int n){
     for (int i=0; i<=n; i++){
         printf("%d",arr[i]);
     }
