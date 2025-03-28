@@ -1,5 +1,5 @@
 #include<stdio.h>
-int insertionSort(int arr[], int n){
+int insertionSort(char arr[], int n){
     int i=0;
     while(i<n-1){
         if (arr[i]>arr[i+1]){
@@ -14,7 +14,7 @@ int insertionSort(int arr[], int n){
     return 0;
 }
 
-int printArray(int arr[], int n){
+int printArray(char arr[], int n){
     for (int i=0; i<n; i++){
         printf("%c ",arr[i]);
     }
