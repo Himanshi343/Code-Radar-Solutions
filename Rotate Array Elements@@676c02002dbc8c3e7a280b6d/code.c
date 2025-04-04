@@ -11,8 +11,8 @@ int main(){
     // }
     int n;
     scanf("%d",&n);
-    for (int i=((a-n)+1); i<a; i++){
-        printf("%d",arr[i]);
-    }
+    // for (int i=((a-n)+1); i<a; i++){
+    printf("%d",n);
+    // }
     return 0;
 }
