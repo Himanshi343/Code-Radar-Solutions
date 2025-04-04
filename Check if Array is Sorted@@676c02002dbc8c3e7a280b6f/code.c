@@ -1,9 +1,10 @@
 #include<stdio.h>
 int bubblesort(int arr[],int a){
     int i=0;
+    int sort=0;
     while (i>0){
         if (arr[i]>arr[i+1]){
-            printf("Not Sorted");
+            sort = 1;
             break;
         } else {
             i++;
@@ -12,8 +13,10 @@ int bubblesort(int arr[],int a){
 }
 
 int printsort(int arr[],int a){
-    for (int i=0; i<a; i++){
-        printf("%d ",arr[i]);
+    if (sort == 1){
+        printf("Not Sorted");
+    } else {
+        printf("Sorted");
     }
 }
 
