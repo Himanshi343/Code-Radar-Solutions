@@ -14,7 +14,7 @@ int main(){
     for (int i=(a-n); i<a; i++){
         printf("%d\n",arr[i]);
     }
-    for (int i=0; i<a-n-1; i++){
+    for (int i=0; i<a-n; i++){
         printf("%d\n",arr[i]);
     }
     return 0;
