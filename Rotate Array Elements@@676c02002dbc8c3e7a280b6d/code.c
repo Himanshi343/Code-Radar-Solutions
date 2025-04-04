@@ -12,7 +12,7 @@ int main(){
     int n;
     scanf("%d",&n);
     for (int i=(a-n)+1; i<n; i++){
-        printf("%d\n",arr[i]);
+        printf("%d\n",arr[i-1]);
     }
     return 0;
 }
