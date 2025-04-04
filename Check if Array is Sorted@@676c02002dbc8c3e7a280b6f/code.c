@@ -26,7 +26,7 @@ int main(){
     for (int i=0; i<a; i++){
         scanf("%d",&arr[i]);
     }
-    int bubblesort(arr,a);
-    int printsort(arr,a);
+    bubblesort(arr,a);
+    printsort(arr,a);
     return 0;
 }
