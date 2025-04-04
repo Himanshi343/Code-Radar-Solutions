@@ -10,15 +10,14 @@ int bubblesort(int arr[],int a){
             i++;
         }
     }
-}
-
-int printsort(int arr[],int a){
     if (sort == 1){
         printf("Not Sorted");
     } else {
         printf("Sorted");
     }
 }
+
+
 
 int main(){
     int a;
@@ -28,6 +27,6 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubblesort(arr,a);
-    printsort(arr,a);
+    
     return 0;
 }
