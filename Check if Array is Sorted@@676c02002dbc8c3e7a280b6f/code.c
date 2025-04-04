@@ -2,7 +2,7 @@
 int bubblesort(int arr[],int a){
     int i=0;
     int sort=0;
-    while (i>0){
+    while (i<a-1){
         if (arr[i]>arr[i+1]){
             sort = 1;
             break;
