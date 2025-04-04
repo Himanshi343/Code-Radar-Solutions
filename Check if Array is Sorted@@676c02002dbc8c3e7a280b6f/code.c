@@ -1,5 +1,5 @@
 #include<stdio.h>
-int bubblesort(int arr[a],int a){
+int bubblesort(int arr[],int a){
     int i=0;
     while (i>0){
         if (arr[i]>arr[i+1]){
@@ -13,7 +13,7 @@ int bubblesort(int arr[a],int a){
     }
 }
 
-int printsort(int arr[a],int a){
+int printsort(int arr[],int a){
     for (int i=0; i<a; i++){
         printf("%d ",arr[i]);
     }
