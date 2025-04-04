@@ -3,10 +3,8 @@ int bubblesort(int arr[],int a){
     int i=0;
     while (i>0){
         if (arr[i]>arr[i+1]){
-            int temp = arr[i];
-            arr[i] = arr[i+1];
-            arr[i+1]=temp;
-            i=0;
+            printf("Not Sorted");
+            break;
         } else {
             i++;
         }
