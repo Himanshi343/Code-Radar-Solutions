@@ -22,7 +22,7 @@ int main(){
     if (z==0){
         printf("-1");
     } else if (count > 0){
-        printf("0");
+        printf("%d",count);
     } else {
         printf("%d",z);
     }
