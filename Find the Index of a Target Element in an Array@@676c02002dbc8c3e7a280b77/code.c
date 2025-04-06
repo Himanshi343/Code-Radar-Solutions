@@ -21,7 +21,7 @@ int main(){
 
     if (z==0){
         printf("-1");
-    } else if (z!=0){
+    } else if (z!=0 && count !=0){
         printf("%d",z);
     } else {
         printf("0");
