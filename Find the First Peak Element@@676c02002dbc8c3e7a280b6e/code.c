@@ -10,6 +10,8 @@ int main(){
         if (arr[i-1]<arr[i] && arr[i+1]<arr[i]){
             printf("%d",arr[i]);
             break;
+        } else {
+            printf("-1");
         }
     }
     return 0;
