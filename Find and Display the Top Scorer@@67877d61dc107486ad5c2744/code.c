@@ -10,4 +10,9 @@ int main(){
         scanf("%s",&name[i]);
         scanf("%f",&marks[i]);
     }
+    for (int i=0; i<a; i++){
+        printf("%d",num[i]);
+        printf("%s",name[i]);
+        printf("%f",marks[i]);
+    }
 }
