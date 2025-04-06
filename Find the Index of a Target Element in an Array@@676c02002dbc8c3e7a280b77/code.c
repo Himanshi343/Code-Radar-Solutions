@@ -9,14 +9,18 @@ int main(){
 
     int num = 0;
     int n;
+    int z=0;
     scanf("%d",&n);
     for (int i=0; i<a; i++){
         if (arr[i]==n){
-            printf("%d",i);
-            break;
-        } else {
-            printf("-1");
+            z=i;
             break;
         }
+    }
+
+    if (z==0){
+        printf("-1");
+    } else {
+        printf("%d",z);
     }
 }
