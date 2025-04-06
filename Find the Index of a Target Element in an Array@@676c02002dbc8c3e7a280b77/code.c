@@ -10,16 +10,19 @@ int main(){
     int num = 0;
     int n;
     int z=0;
+    int count = 0;
     scanf("%d",&n);
     for (int i=0; i<a; i++){
         if (arr[i]==n){
             z=i;
-            break;
+            count ++;
         }
     }
 
     if (z==0){
         printf("-1");
+    } else if (count > 0){
+        printf("0");
     } else {
         printf("%d",z);
     }
