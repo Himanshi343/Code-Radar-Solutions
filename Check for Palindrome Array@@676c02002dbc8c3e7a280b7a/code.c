@@ -13,6 +13,7 @@ int main(){
         if(arr[i]==arr[n]){
             pal ++;
         } else {
+            printf("NO");
             break;
         }
         n--;
