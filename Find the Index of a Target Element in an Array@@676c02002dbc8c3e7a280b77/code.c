@@ -14,6 +14,8 @@ int main(){
         if (arr[i]==n){
             printf("%d",i);
             break;
+        } else {
+            printf("-1");
         }
     }
 }
