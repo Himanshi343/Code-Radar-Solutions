@@ -11,8 +11,8 @@ int main(){
         scanf("%f",&marks[i]);
     }
     for (int i=0; i<a; i++){
-        printf("%d",num[i]);
-        printf("%s",name[i]);
-        printf("%f",marks[i]);
+        printf("%d ",num[i]);
+        printf("%s ",name[i]);
+        printf("%.2f\n",marks[i]);
     }
 }
