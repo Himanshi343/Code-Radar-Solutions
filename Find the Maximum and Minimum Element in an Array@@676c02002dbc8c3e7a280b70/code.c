@@ -6,7 +6,7 @@ int mina(int arr[], int a){
             min = arr[i];
         }
     }
-    printf("%d",min);
+    printf("%d ",min);
 }
 int maxa(int arr[], int a){
     int max=arr[0];
