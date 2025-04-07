@@ -25,7 +25,7 @@ int main(){
     for (int i=0; i<a; i++){
         scanf("%d",&arr[i]);
     }
-    maxa(arr,a);
     mina(arr,a);
+    maxa(arr,a);
     return 0;
 }
