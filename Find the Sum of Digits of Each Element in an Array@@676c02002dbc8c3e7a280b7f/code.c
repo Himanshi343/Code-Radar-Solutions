@@ -9,12 +9,12 @@ int main(){
     for (int i=0; i<a; i++){
         int sum = 0;
         int ld = 0;
-        for (int j=i-1; j<=i; j++){
+        // for (int j=i-1; j<=i; j++){
             while (arr[i]!=0){
             sum += ld;
             arr[i]=arr[i]/10;
             }
-        }
+        // }
         printf("%d ",sum);
     }
 }
