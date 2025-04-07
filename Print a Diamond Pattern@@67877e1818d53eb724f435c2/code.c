@@ -14,10 +14,10 @@ int main(){
         }
         if (i<ml){
             nsp++;
-            nst--;
+            nst=nst+2;
         } else {
             nsp--;
-            nst++;
+            nst=+2;
         }
     }
     return 0;
