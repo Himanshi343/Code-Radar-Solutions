@@ -6,11 +6,11 @@ int main(){
     int nsp = a/2;
     int ml = a/2+1;
     for (int i=1; i<=a; i++){
-        for (int k=a; k<=i; k++){
-            printf("%d",nsp);
+        for (int k=a; k<=nsp; k++){
+            printf("*");
         }
-        for (int j=1; j<=2*i+1; j++){
-            printf("%d",nst);
+        for (int j=1; j<=nst; j++){
+            printf("*");
         }
         if (i<ml){
             nsp++;
