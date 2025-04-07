@@ -1,5 +1,7 @@
 #include<stdio.h>
-int max()
+int max(int arr[], int a){
+
+}
 int main(){
     int a;
     scanf("%d",&a);
