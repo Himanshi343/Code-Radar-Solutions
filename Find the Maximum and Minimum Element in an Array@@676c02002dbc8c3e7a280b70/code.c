@@ -1,4 +1,13 @@
 #include<stdio.h>
+int mina(int arr[], int a){
+    int min=arr[0];
+    for (int i=0; i<a; i++){
+        if (arr[i]<min){
+            min = arr[i];
+        }
+    }
+    printf("%d",min);
+}
 int maxa(int arr[], int a){
     int max=arr[0];
     for (int i=0; i<a; i++){
@@ -8,9 +17,7 @@ int maxa(int arr[], int a){
     }
     printf("%d",max);
 }
-int mina(int arr[], int a){
 
-}
 int main(){
     int a;
     scanf("%d",&a);
