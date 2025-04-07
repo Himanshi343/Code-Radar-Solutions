@@ -12,7 +12,7 @@ int main(){
     for (int i=0; i<a; i++){
         scanf("%d",&arr[i]);
     }
-    max(arr[],a);
-    min(arr[],a);
+    max(arr,a);
+    min(arr,a);
     return 0;
 }
