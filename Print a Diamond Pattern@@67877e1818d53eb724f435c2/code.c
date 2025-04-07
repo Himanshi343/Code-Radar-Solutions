@@ -17,7 +17,7 @@ int main(){
             nst=nst+2;
         } else {
             nsp--;
-            nst=+2;
+            nst+=2;
         }
     }
     return 0;
