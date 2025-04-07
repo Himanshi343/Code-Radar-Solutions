@@ -1,24 +1,26 @@
+/// DIAMOND PATTERN
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    int nst = 1;
-    int nsp = a/2;
-    int ml = a/2+1;
-    for (int i=1; i<=a; i++){
-        for (int k=a; k<=nsp; k++){
-            printf("*");
+    int n;
+    scanf("%d",&n);
+    int nsp = n/2;                   // NO OF SPACE
+    int nst = 1;                     // NO OF STARS
+    int ml = n/2+1;                  // NO OF MIDDLE LINE  
+    for (int i=1; i<=n; i++){
+        for (int k=1; k<=nsp; k++){
+            printf(" ");
         }
         for (int j=1; j<=nst; j++){
             printf("*");
         }
+        printf("\n");
         if (i<ml){
-            nsp++;
-            nst=nst+2;
-        } else {
             nsp--;
-            nst+=2;
+        nst+=2;
+        } else {
+            nsp++;
+            nst-=2;
         }
     }
-    return 0;
+        return 0;
 }
