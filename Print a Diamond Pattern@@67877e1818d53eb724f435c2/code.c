@@ -14,9 +14,9 @@ int main(){
             printf("*");
         }
         printf("\n");
-        if (i<ml){
+        if (i<=ml){
             nsp--;
-        nst+=2;
+            nst+=2;
         } else {
             nsp++;
             nst-=2;
