@@ -3,7 +3,7 @@ int main(){
     int a;
     scanf("%d",&a);
     int nst = 1;
-    int nsp = n/2;
+    int nsp = a/2;
     int ml = a/2+1;
     for (int i=1; i<=a; i++){
         for (int k=a; k<=i; k++){
