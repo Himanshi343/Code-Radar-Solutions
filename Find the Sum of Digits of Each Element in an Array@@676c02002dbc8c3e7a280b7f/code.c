@@ -9,7 +9,7 @@ int main(){
     for (int i=0; i<a; i++){
         int sum = 0;
         int ld = 0;
-        for (int j=i; j<=i; j++){
+        for (int j=i-1; j<=i; j++){
             ld = arr[i] % 10;
             sum += ld;
             arr[i]=arr[i]/10;
