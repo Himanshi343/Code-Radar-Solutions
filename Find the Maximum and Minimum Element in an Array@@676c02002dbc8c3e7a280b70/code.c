@@ -13,6 +13,6 @@ int main(){
         scanf("%d",&arr[i]);
     }
     max(arr[],a);
-    min();
+    min(arr[],a);
     return 0;
 }
