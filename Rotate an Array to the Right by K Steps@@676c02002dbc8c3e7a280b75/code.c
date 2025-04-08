@@ -12,10 +12,10 @@ int main(){
     int n;
     scanf("%d",&n);
     for (int i=(a-n); i<a; i++){
-        printf("%d\n",arr[i]);
+        printf("%d ",arr[i]);
     }
     for (int i=0; i<a-n; i++){
-        printf("%d\n",arr[i]);
+        printf("%d ",arr[i]);
     }
     return 0;
 }
