@@ -9,6 +9,6 @@ int factorial(int n) {
 int factorialRange(int x, int y){
     for (int i=x; i<=y; i++){
         int fact = factorial(i);
-        printf("%d",factorial);
+        printf("%d",fact);
     }
 }
