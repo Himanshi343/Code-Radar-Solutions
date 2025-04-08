@@ -6,5 +6,6 @@ int main(){
         for (int k=i; k<=a; k++){
             printf("8");
         }
+        printf("\n");
     }
 }
