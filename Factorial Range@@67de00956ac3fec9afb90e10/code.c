@@ -31,6 +31,6 @@ void factorialRange(int x, int y) {
     }
     for (int i = x; i <= y; i++) {
         int fact = factorial(i);
-        printf("Factorial of %d: %d\n", i, fact); // Output formatting
+        printf("%d\n",fact); // Output formatting
     }
 }
