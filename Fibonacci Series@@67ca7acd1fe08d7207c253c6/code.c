@@ -13,5 +13,5 @@ int fibonacciSeries(int a){
     if (a <= 1) { // Base case
         return a;
     }
-    return fibonacci(a - 1) + fibonacciSeries(a - 2); // Recursive case
+    return fibonacciSeries(a - 1) + fibonacciSeries(a - 2); // Recursive case
 }
