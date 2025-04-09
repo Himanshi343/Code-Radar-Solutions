@@ -6,7 +6,7 @@ int main(){
     int isbinary = 0;
     while (a>0){
         ld = a%10;
-        if (ld!=0 &&ld!=1){
+        if (ld!=0 || ld!=1){
             isbinary ==2;
             break;
         }
