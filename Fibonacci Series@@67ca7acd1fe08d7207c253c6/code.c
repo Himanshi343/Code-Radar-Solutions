@@ -14,16 +14,9 @@
 
 
 void fibonacciSeries(int a) {
-    if (a <= 0) {
-        printf("Invalid input. Please enter a positive number.\n");
-        return;
-    }
-
     int n1 = 0, n2 = 1, n;
-
     if (a == 1) {
-        printf("0\n");
-        return;
+        return 0;
     }
 
     printf("0 1 ");
