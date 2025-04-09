@@ -13,7 +13,7 @@ int main(){
                 count ++;
                 break;
             }
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
         }
 
     }
