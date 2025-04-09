@@ -13,8 +13,10 @@ int main(){
                 count ++;
                 break;
             }
+            printf("%d",arr[i]);
         }
+
     }
-    printf("%d",count);
+    
     return 0;
 }
