@@ -11,6 +11,7 @@ int main(){
         for (int j=2; j<arr[i]/2; j++){
             if (arr[i]%j==0){
                 count ++;
+                break;
             }
         }
     }
