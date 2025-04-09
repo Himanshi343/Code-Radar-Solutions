@@ -10,8 +10,8 @@ int fibonacciSeries(int a){
     //     n2 = n;
     // }
 
-    if (n <= 1) { // Base case
-        return n;
+    if (a <= 1) { // Base case
+        return a;
     }
-    return fibonacci(n - 1) + fibonacciSeries(n - 2); // Recursive case
+    return fibonacci(a - 1) + fibonacciSeries(a - 2); // Recursive case
 }
