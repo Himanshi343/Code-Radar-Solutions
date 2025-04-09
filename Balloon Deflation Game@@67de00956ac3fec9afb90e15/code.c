@@ -17,15 +17,15 @@ int deflateBalloons(int air[], int n){
         
         }
         printf("%d ",max);
-        int allZero = 1; // Assume all elements are zero
+        int Z = 1; // Assume all elements are zero
         for (int i = 0; i < n; i++) {
             if (air[i] != 0) {
-                allZero = 0; // Found a non-zero element
+                Z = 0;
                 break;
             }
         }
-        if (allZero) {
-            break; // Exit the loop if all elements are zero
+        if (Z) {
+            break;
         }
     }
 }
