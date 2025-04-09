@@ -5,11 +5,10 @@ int deflateBalloons(int air[], int n){
             min = air[i];
         }
     }
-    int arr[n];
     for (int i=0; i<n; i++){
-        arr[i] -= min;
+        air[i] -= min;
     }
     for (int i=0; i<n; i++){
-        printf("%d ",arr[i]);
+        printf("%d ",air[i]);
     }
 }
