@@ -17,7 +17,7 @@ int deflateBalloons(int air[], int n){
         
         }
         printf("%d ",max);
-        int Z = 1; // Assume all elements are zero
+        int Z = 1;
         for (int i = 0; i < n; i++) {
             if (air[i] != 0) {
                 Z = 0;
@@ -28,4 +28,5 @@ int deflateBalloons(int air[], int n){
             break;
         }
     }
+    return 0;
 }
