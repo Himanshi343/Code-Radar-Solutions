@@ -3,7 +3,7 @@ int fibonacciSeries(int a){
     int n2 = 1;
     int n;
     printf("0 1 ");
-    for (int i=1; i<=a; i++){
+    for (int i=1; i<a; i++){
         n = n1 + n2;
         printf("%d ",n);
         n1 = n2;
