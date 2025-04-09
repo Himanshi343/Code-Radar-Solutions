@@ -6,24 +6,12 @@ int main(){
     for (int i=0; i<a; i++){
         scanf("%d",&arr[i]);
     }
-
-    int num = 0;
     int n;
-    int z=0;
-    int count = 0;
     scanf("%d",&n);
     for (int i=0; i<a; i++){
-        if (arr[i]==n){
-            z=i;
-            count ++;
+        if (n==arr[i]){
+            return i;
         }
     }
-
-    if (z==0){
-        printf("-1");
-    } else if (z!=0 && count ==0){
-        printf("%d",z);
-    } else {
-        printf("0");
-    }
+    return -1;
 }
