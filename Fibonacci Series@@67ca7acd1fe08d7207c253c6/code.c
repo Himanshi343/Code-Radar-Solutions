@@ -1,5 +1,5 @@
 int fibonacciSeries(int a){
-    int n1 = -1;
+    int n1 = 0;
     int n2 = 0;
     int n;
     for (int i=1; i<=a; i++){
