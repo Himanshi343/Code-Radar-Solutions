@@ -1,11 +1,12 @@
 int fibonacciSeries(int a){
     int n1 = 0;
     int n2 = 1;
+    int n = a;
     for (int i=0; i<=a; i++){
-        a = n1 + n2;
-        printf("%d ",a);
+        n = n1 + n2;
+        printf("%d ",n);
         n1 = n2;
-        n2 = a;
+        n2 = n;
     }
     return 0;
 }
