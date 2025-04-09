@@ -8,10 +8,10 @@ int main(){
     }
     int count = 0;
     for (int i=0; i<a; i++){
-        for (int j=2; j<arr[i]/2; j++){
+        for (int j=2; j<arr[i]/2+1; j++){
             if (arr[i]%j==0){
                 count ++;
-            }  
+            }
         }
     }
     printf("%d",count);
