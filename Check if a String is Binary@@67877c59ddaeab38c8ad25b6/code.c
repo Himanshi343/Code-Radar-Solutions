@@ -9,5 +9,6 @@ int main(){
             printf("No");
             break;
         }
+        a = a/10;
     }
 }
