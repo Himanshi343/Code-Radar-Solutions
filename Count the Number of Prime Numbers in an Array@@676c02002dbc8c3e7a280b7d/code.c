@@ -14,7 +14,7 @@ int main(){
                 continue;
             } else {
                 count ++;
-                break;
+                // break;
             }
 
         }
