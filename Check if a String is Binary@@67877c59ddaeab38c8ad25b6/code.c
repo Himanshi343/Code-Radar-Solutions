@@ -8,7 +8,7 @@ int main(){
         ld = a%10;
         if (ld!=0 || ld!=1){
             isbinary ==2;
-            break;
+            // break;
         }
         a = a/10;
     }
