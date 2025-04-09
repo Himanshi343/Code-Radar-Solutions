@@ -12,7 +12,7 @@ int main(){
         }
         a = a/10;
     }
-    if (isbinary != 0){
+    if (isbinary == 0){
         printf("Yes");
     } else {
         printf("No");
