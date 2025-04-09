@@ -14,7 +14,8 @@ int main(){
                 continue;
             } else {
                 count ++;
-                // break;
+                printf("%d",count);
+                break;
             }
 
         }
