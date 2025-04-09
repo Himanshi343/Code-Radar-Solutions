@@ -11,6 +11,8 @@ int main(){
             if (arr[i]==arr[j]){
                 printf("%d ",arr[i]);
                 // break;
+            }else{
+                continue;
             }
             
         }
