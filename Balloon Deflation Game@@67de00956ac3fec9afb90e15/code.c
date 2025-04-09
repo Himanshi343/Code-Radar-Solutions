@@ -13,8 +13,8 @@ int deflateBalloons(int air[], int n){
     }
     int max = air[0];
     for (int i=0; i<n; i++){
-        if (arr[i]>max){
-            max = arr[i];
+        if (air[i]>max){
+            max = air[i];
         }
         
     }
