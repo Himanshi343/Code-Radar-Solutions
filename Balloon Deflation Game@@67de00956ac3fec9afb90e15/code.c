@@ -1,5 +1,5 @@
 int deflateBalloons(int air[], int n){
-    while(1){
+    
     int min = air[0];
         for (int i=0; i<n; i++){
             if (air[i]<min && min != 0){
@@ -25,8 +25,8 @@ int deflateBalloons(int air[], int n){
             }
         }
         if (Z) {
-            break;
+            return 0;
         }
-    }
-    return 0;
+    
+    deflateBalloons(air, n);
 }
