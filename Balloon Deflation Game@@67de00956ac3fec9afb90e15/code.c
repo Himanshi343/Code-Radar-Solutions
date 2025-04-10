@@ -26,7 +26,7 @@ int deflateBalloons(int air[], int n){
         if (Z) {
             return 0;
         }
-        deflateBalloons(air);
+    deflateBalloons(air, n);
 }
     
 // //     deflateBalloons(air, n);
