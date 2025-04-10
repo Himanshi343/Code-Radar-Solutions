@@ -137,11 +137,3 @@ int deflateBalloons(int air[], int n) {
     return deflateBalloons(air, n);
 }
 
-int main() {
-    int air[] = {5, 1, 3, 2};
-    int n = sizeof(air) / sizeof(air[0]);
-
-    deflateBalloons(air, n);
-
-    return 0;
-}
